@@ -1,0 +1,85 @@
+#container{
+    display: flex;
+}
+
+
+#divChart{
+    width: 400px;
+    height: 400px;
+}
+
+#divChart2{
+    width: 1520px;
+    height: 680px;
+}
+
+.dashboard .dash1{
+    top: 200px;
+    position: relative;
+}
+
+.dashboard .dash2{
+    top: 200px;
+    position: relative;
+}
+
+.conteners .button1{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background: #16a085;
+    z-index: 1;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 50px;
+    margin: 0;
+    left: 300px;
+    position: absolute;
+    top: 12%; 
+}
+
+.conteners .button2{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background: #16a085;
+    z-index: 1;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 50px;
+    margin: 0;
+    left: 150px;
+    position: absolute;
+    top: 12%; 
+}
+
+.conteners .input1{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 10%;
+    height: 1%;
+    padding: 10px 20px;
+    border: black 1px solid;
+    border-radius: 50px;
+    left: 200px;
+}
+
+.conteners .input2{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 10%;
+    height: 1%;
+    padding: 10px 20px;
+    border: black 1px solid;
+    border-radius: 50px;
+}

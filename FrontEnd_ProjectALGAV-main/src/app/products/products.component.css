@@ -1,0 +1,258 @@
+.Poisson{
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px 10px;
+    top: 8%;
+
+}
+
+.Fruitdemer{
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px 10px;
+    top: 85%;
+}
+
+.Crustacer{
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px 10px;
+    top: 175%;
+}
+
+.button1{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background: #16a085;
+    z-index: 1;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 50px;
+    margin: 0;
+    position: absolute;
+    top: 12%;    
+}
+.button2{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background: #16a085;
+    z-index: 1;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 50px;
+    margin: 0;
+    left: 150px;
+    position: absolute;
+    top: 12%;    
+}
+
+.button3{
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background: #16a085;
+    z-index: 1;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 50px;
+    margin: 0;
+    left: 300px;
+    position: absolute;
+    top: 12%;    
+}
+
+.button4{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    background: #16a085;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 50px;
+}
+.button5{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    background: #16a085;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 50px;
+}
+
+.button6{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    background: #16a085;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 50px;
+}
+
+.button1:hover{
+    background: green;
+}
+.button2:hover{
+    background: green;
+}.button3:hover{
+    background: green;
+}
+.button4:hover{
+    background: green;
+}
+.button5:hover{
+    background: green;
+}.button6:hover{
+    background: green;
+}
+
+.barre{
+
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px 10px;
+    top: 210%;
+
+}
+
+.input1{
+    width: 100px;
+}
+
+
+.tab1{
+
+    position: absolute;
+    left: 50%;
+    top: 67%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 1500px;
+    height: 200px;
+    border: 1px solid wheat;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tab1 tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.tab1 th,
+td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#header{
+    background-color: #16a085 ;
+    color: #fff;
+}
+
+.tab1 tr:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.tab2{
+
+    position: absolute;
+    left: 50%;
+    top: 170%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 1500px;
+    height: 200px;
+    border: 1px solid wheat;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tab2 tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.tab2 th,
+td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab2 tr:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.tab3{
+
+    position: absolute;
+    left: 50%;
+    top: 250%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 1500px;
+    height: 200px;
+    border: 1px solid wheat;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tab3 tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.tab3 th,
+td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab3 tr:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+
+}

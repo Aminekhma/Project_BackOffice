@@ -1,0 +1,26 @@
+<div class="dashboard" id="container">
+    <div class="dash1" id="divChart">
+        <canvas id="myChart"></canvas>
+    </div>
+    
+    <div class="dash2" id="divChart2">
+        <canvas id="myChart2"></canvas>
+    </div>
+
+</div>
+
+<div class="conteners" id="parametre">
+
+    <input type="text" class="input1" id="year" name="year" list="year-list" placeholder="Year..." #year>
+            <datalist id="year-list">
+               <option *ngFor="let obj of listYear">{{obj}}</option>
+            </datalist>
+    
+    <input type="text" class="input2" id="month" name="month" list="month-list" placeholder="Mounth..." #month>
+            <datalist id="month-list">
+               <option *ngFor="let obj of listMonth">{{obj}}</option>
+            </datalist>
+
+    <button class="button1" (click)="setYear(year.value)">Année</button>
+    <button class="button2" (click)="setMonth(month.value)">Mois</button>
+</div>

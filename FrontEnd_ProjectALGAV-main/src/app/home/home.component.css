@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nova Round', cursive;
+}
+
+.wrap{
+    background: rgba(0, 0, 0, 0.5) url(background.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay ;
+}
+
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: -140px;
+    color: #fff;
+    opacity: 1;
+}
+
+.content{
+    padding: 200px 80px 0;
+    color: #fff;
+}
+
+.content h1{
+    max-width: 100%;
+    font-size: 48px;
+}
+
+.content p{
+    max-width: 55%;
+    font-size: 20px;
+    padding: 25px 0;
+    font-weight: 300;
+}
+
+.content .btn-group{
+    margin-top: 45px;
+}
+
+.content a{
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.content a.color1{
+    background-color: #ffc107;
+}
+
+.our-partners{
+    padding: 0 80px;
+    position: relative;
+}
+
+.our-partners h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.our-partners hr{
+    border: none;
+    height: 4px;
+    width: 100px;
+    background-color: orange ;
+}

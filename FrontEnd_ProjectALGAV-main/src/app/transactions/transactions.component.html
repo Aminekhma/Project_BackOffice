@@ -1,0 +1,56 @@
+
+<div class="container">
+    <div class="search_wrap">
+       <div class="search_box">   
+            <input class="input1" type="datetime-local" id="date" #date>
+            <input class="input2" type="text" id="quantity" placeholder="Quantity..." #quantity>
+            <input class="input4" type="text" id="id" placeholder="ID..." #id>
+            <input type="text" class="input5" id="type" name="type" list="type-list" placeholder="Type..." #type>
+            <datalist id="type-list">
+               <option>Vente</option>
+               <option>Achat</option>
+               <option>Invendu</option>
+            </datalist>
+        </div>
+            <button class="btn btn_common" type="button" (click)="postTransactions(date.value,quantity.value,id.value,type.value)">Add</button>
+    </div>
+</div>
+
+
+<table class="tab"> 
+    <tr id="header">
+
+       <th>Prix</th>
+       <th>Id</th>
+       <th>Date</th>
+       <th>Quantité</th>
+       <th>Type de transaction</th>
+    </tr>           
+
+<tr *ngFor="let t of getNewList()">
+ 
+    <th>
+        {{t.price}} €
+     </th>
+     <th>
+        {{t.tigID}} 
+     </th>
+     <th>
+        {{convertDate(t.date)}}
+     </th>
+     <th>
+        {{t.quantity}} 
+     </th>
+     <th *ngIf="t.transaction_type == 0">
+        Achat
+     </th>
+     <th *ngIf="t.transaction_type == 1">
+        Vente
+     </th>
+     <th *ngIf="t.transaction_type == 2">
+        Invendu
+     </th>
+ 
+</tr>
+
+</table>
